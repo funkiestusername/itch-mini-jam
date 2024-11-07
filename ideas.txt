@@ -1,0 +1,79 @@
+Cards:
+The Fool:
+Upright:
+Play two cards on the Users next turn
+Reversed:
+deal between 1 and 4 damage to the opponent, deals 4-X to the user
+
+The Magician:
+Upright:
+Draw 1 more card next turn
+Reversed:
+Disguises the next card played as another random, excluding Reversed Magician
+
+The High Priestess:
+Upright:
+Read and mark 1 card of the opponent
+Reversed:
+Swap a card with the opponent
+
+The Empress:
+Upright:
+Increase health by two
+Reversed:
+half the effectiveness of the next card played by an opponent, rounded down
+
+The Emperor:
+Upright:
+Block the opponents next damaging card
+Reversed:
+Deal between 1 and 4 damage to the opponent and the same to yourself
+
+The Hierophant:
+Upright:
+double next card played
+Reversed:
+double the next negative effect of an opponents card
+
+The Lovers:
+Upright:
+Play the next card the opponent plays
+Reversed:
+Shuffle both you and your opponets decks
+
+The Chariot:
+Upright:
+deal 2 damage to the opponent and add 2 health
+Reversed:
+Deal 5 damage to the opponent and half rounded down to user
+
+Strength:
+Upright:
+Add 1 stack of Strength for 3 turns (Strength increases all damage sources by 1)
+Reversed:
+Add 1 stack of Weakness to the opponent (Weakness decreases all damage sources by 1)
+
+The Hermit:
+Upright:
+see the next three cards in your deck, in order they will be drawn
+Reversed:
+No cards can effect you on the next turn, and you cannot play any cards
+
+The Wheel of Fortune:
+Upright:
+randomly select and play (damage1,damage 2, heal 1, heal 2, draw1, and play a random major arcana)
+(1/20 chance for major arcana, then 1 in 5 for the rest) (not one of the player's card)
+Reversed:
+The opponent has (damage1, damage 2, damage 3, discard 1 (randomly selects card), or heal1), selected and add to hand
+targets themselves with it and plays it (heal 1 has half the chance of the others)
+
+
+Justice:
+Upright:
+Mirror the card the opponent plays: i.e damage opponent if they damage you or heal if they heal themselves
+Reversed:
+
+
+
+
+

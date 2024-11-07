@@ -2,7 +2,14 @@
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## Project Structure
+
+Window settings and application config is found in `lwjgl3/src/main/java/itchminijam/mystic/lwjgl3/Lwjgl3Launcher.java`
+
+All the game code is in the `core/src/main/java/itchminijam/mystic/`
+
+All assets (textures, sounds, etc..) inside `assets/` 
+
 
 ## Platforms
 

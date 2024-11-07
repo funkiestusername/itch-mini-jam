@@ -26,6 +26,11 @@ public class GameObject extends Group {
         setSize(texture.getWidth(), texture.getHeight());
     }
 
+    public void setTextureRegion(TextureRegion region) {
+        this.texture.setRegion(region);
+        setSize(texture.getRegionWidth(), texture.getRegionHeight());
+    }
+
     public TextureRegion getTexture() {
         return texture;
     }

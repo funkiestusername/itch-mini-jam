@@ -1,4 +1,7 @@
 package itchminijam.mystic;
 
-public class Player extends Competiter {
+public class Player extends Competitor {
+    public Player() {
+
+    }
 }

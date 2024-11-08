@@ -1,5 +1,7 @@
 package itchminijam.mystic.screens;
 
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.graphics.Texture;
 import itchminijam.mystic.Computer;
 import itchminijam.mystic.MysticTarotBattler;
 import itchminijam.mystic.Player;
@@ -18,15 +20,30 @@ public class GameScreen extends AbstractScreen<MysticTarotBattler> {
     //SUGGESTION: ignore the limitation announced? or maybe try justify project based on what the limitation is without
     //            without actually changing anything?
 
-    // ideas for progression:
-    private int level; // level could reset if you lose a battle?? or resets when you run out of lives?
+    private int level;
 
     @Override
     protected void initialise() {
+        level = 1;
+
         player = new Player();
         computer = new Computer();
 
         shuffleDecks();
+    }
+
+    private void showStartOfLevel() {
+
+    }
+
+    private void pickCardToKeep() {
+        // when lost all lives, choose an arcana card to keep
+    }
+
+    private void loadAssets() {
+        AssetManager assets = MysticTarotBattler.getAssets();
+
+        assets.load("cards/the-fool.jpg", Texture.class);
     }
 
     @Override

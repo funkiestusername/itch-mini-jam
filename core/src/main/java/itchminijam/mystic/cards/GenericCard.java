@@ -1,11 +1,5 @@
 package itchminijam.mystic.cards;
 
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
+public abstract class GenericCard implements Card {
 
-public class GenericCard implements Card {
-    private int damage;
-
-    public GenericCard(TextureRegion texture) {
-
-    }
 }

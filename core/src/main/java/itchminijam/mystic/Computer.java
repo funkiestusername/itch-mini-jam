@@ -1,5 +1,5 @@
 package itchminijam.mystic;
 
-public class Computer extends Competiter {
+public class Computer extends Competitor {
 
 }

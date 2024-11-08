@@ -17,6 +17,9 @@ public class GameScreen extends AbstractScreen<MysticTarotBattler> {
     //SUGGESTION: ignore the limitation announced? or maybe try justify project based on what the limitation is without
     //            without actually changing anything?
 
+    // ideas for progression:
+    private int level; // level could reset if you lose a battle?? or resets when you run out of lives?
+
     @Override
     protected void initialise() {
         player = new Player();

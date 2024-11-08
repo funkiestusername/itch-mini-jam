@@ -9,4 +9,8 @@ public class Competiter {
     public int getHealth() {
         return health;
     }
+
+    public Deck getDeck() {
+        return deck;
+    }
 }

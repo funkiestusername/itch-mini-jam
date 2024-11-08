@@ -14,6 +14,7 @@ public class GameScreen extends AbstractScreen<MysticTarotBattler> {
     private Computer computer;
 
     //TODO: decide starting state and discuss progression/loss consequences
+    //      Open game, start a level 1, each win increases level, when out of lives level resets and keep a card.
     //SUGGESTION: ignore the limitation announced? or maybe try justify project based on what the limitation is without
     //            without actually changing anything?
 
